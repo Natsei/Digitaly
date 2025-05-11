@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import Hero from "./sections/Hero/Hero";
-import Pricing from "./sections/Pricing/Pricing";
 import Features from "./sections/Features/Features";
 import About from "./sections/About/About";
 import Footer from "./sections/Footer/Footer";
@@ -23,7 +22,6 @@ const App = () => {
         ref={containerRef}
       >
         <Hero />
-        <Pricing />
         <Features />
         <About />
         <Footer />
