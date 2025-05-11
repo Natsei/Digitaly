@@ -1,31 +1,31 @@
-import { useRef, useEffect } from "react";
-import AwardedWorks from "./sections/AwardedWorks/AwardedWorks";
-import Clients from "./sections/Clients/Clients";
-import Deliver from "./sections/Deliver/Deliver";
-import Home from "./sections/Home/Home";
-import SelectedWorks from "./sections/SelectedWorks/SelectedWorks";
-import Team from "./sections/Team/Team";
-import CTA from "./sections/CTA/CTA";
-import Footer from "./sections/Footer/Footer";
+import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import Hero from "./sections/Hero/Hero";
+import Pricing from "./sections/Pricing/Pricing";
+import Features from "./sections/Features/Features";
+import About from "./sections/About/About";
+import Footer from "./sections/Footer/Footer";
 
 const App = () => {
   const containerRef = useRef(null);
 
-  const options = {
-    smooth: true,
-  };
-
   return (
-    <LocomotiveScrollProvider options={options} containerRef={containerRef}>
-      <main className="bg-[#1e1e20]" data-scroll-container ref={containerRef}>
-        <Home />
-        <Deliver />
-        <SelectedWorks />
-        <AwardedWorks />
-        <Team />
-        <Clients />
-        <CTA />
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+        lerp: 0.08
+      }}
+      containerRef={containerRef}
+    >
+      <main 
+        className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen"
+        data-scroll-container 
+        ref={containerRef}
+      >
+        <Hero />
+        <Pricing />
+        <Features />
+        <About />
         <Footer />
       </main>
     </LocomotiveScrollProvider>
