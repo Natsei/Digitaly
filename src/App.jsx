@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import Hero from "./sections/Hero/Hero";
 import Features from "./sections/Features/Features";
-import About from "./sections/About/About";
+import Deliver from "./sections/Deliver/Deliver";
 import Footer from "./sections/Footer/Footer";
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
       >
         <Hero />
         <Features />
-        <About />
+        <Deliver />
         <Footer />
       </main>
     </LocomotiveScrollProvider>
