@@ -27,12 +27,12 @@ const Navbar = () => {
 					<Link
 						to='about'
 						className='cursor-pointer text-gray-700 font-semibold text-[80%] lg:text-[1rem] pt-[8px] hidden md:flex'>
-						<motion.span variants={riseUpItem}>About Us</motion.span>
+						<motion.span variants={riseUpItem}>À Propos</motion.span>
 					</Link>
 					<Link
 						to='project'
 						className='cursor-pointer text-gray-700 font-semibold text-[80%] lg:text-[1rem] pt-[8px] hidden md:flex'>
-						<motion.span variants={riseUpItem}>Project</motion.span>
+						<motion.span variants={riseUpItem}>Projets</motion.span>
 					</Link>
 					<Link to='home' className='cursor-pointer'>
 						<motion.img
@@ -52,7 +52,7 @@ const Navbar = () => {
 						to='contact'
 						className='cursor-pointer text-gray-700 font-semibold text-[80%] lg:text-[1rem] pt-[8px] hidden md:flex'
 						href=''>
-						<motion.span variants={riseUpItem}> Contact Us</motion.span>{" "}
+						<motion.span variants={riseUpItem}>Contact</motion.span>
 					</Link>
 					<motion.div
 						variants={tagVariant}
@@ -89,13 +89,13 @@ const Navbar = () => {
 								to='about'
 								onClick={handleNav}
 								className='p-6 text-[1.5rem] hover:text-[2rem] transition-all duration-150 font-semibold'>
-								<motion.span variants={itemVariants}> About Us</motion.span>
+								<motion.span variants={itemVariants}>À Propos</motion.span>
 							</Link>
 							<Link
 								to='project'
 								onClick={handleNav}
 								className='p-6 text-[1.5rem] hover:text-[2rem] transition-all duration-150 font-semibold'>
-								<motion.span variants={itemVariants}>Project</motion.span>
+								<motion.span variants={itemVariants}>Projets</motion.span>
 							</Link>
 							<Link
 								to='services'
@@ -107,7 +107,7 @@ const Navbar = () => {
 								to='contact'
 								onClick={handleNav}
 								className='p-6 text-[1.5rem] hover:text-[2rem] transition-all duration-150 font-semibold'>
-								<motion.span variants={itemVariants}>Contact Us</motion.span>
+								<motion.span variants={itemVariants}>Contact</motion.span>
 							</Link>
 						</div>
 					</motion.div>

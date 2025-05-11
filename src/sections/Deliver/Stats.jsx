@@ -20,7 +20,7 @@ const Stats = () => {
 						<BiPlusMedical className='mt-[12px] text-[1.2rem] lg:text-[3rem] text-[#0476b5]' />
 					</div>
 					<p className='lg:mt-[-20px] mt-[-10px] text-[70%] lg:text-[1rem] font-medium text-[#929294]'>
-						Successful Projects
+						Projets Réussis
 					</p>
 				</motion.div>
 				<motion.div variants={riseUpItem}>
@@ -31,7 +31,7 @@ const Stats = () => {
 						<BiPlusMedical className='mt-[12px] text-[1.2rem] lg:text-[3rem] text-[#f53627]' />
 					</div>
 					<p className='lg:mt-[-20px] mt-[-10px] text-[70%] lg:text-[1rem] font-medium text-[#929294]'>
-						Super Happy Clients
+						Clients Très Satisfaits
 					</p>
 				</motion.div>
 				<motion.div variants={riseUpItem}>
@@ -42,13 +42,13 @@ const Stats = () => {
 						<BiPlusMedical className='mt-[12px] text-[1.2rem] lg:text-[3rem] text-[#ea8113]' />
 					</div>
 					<p className='lg:mt-[-20px] mt-[-10px] text-[70%] lg:text-[1rem] font-medium text-[#929294]'>
-						Adv Award Winners
+						Prix Publicitaires
 					</p>
 				</motion.div>
 				<motion.div variants={riseUpItem} className='hidden lg:block'>
 					<p className='text-[1rem] text-[#929294]'>
-						Stay connected with us & get your digital marketing strategy in
-						place. We make digital marketing simple.
+						Restez connecté avec nous et mettez en place votre stratégie de marketing digital. 
+						Nous rendons le marketing digital simple.
 					</p>
 				</motion.div>
 			</motion.div>
@@ -56,10 +56,10 @@ const Stats = () => {
 				<p className='text-[1.2rem] lg:text-[3rem] uppercase'>SEO</p>
 				<div className='bg-[#353535] hidden md:block h-[10px] w-[10px] lg:h-[20px] lg:w-[20px] rounded-[50%]'></div>
 				<p className='text-[1.2rem] lg:text-[3rem] uppercase'>
-					Branded research
+					Recherche de marque
 				</p>
 				<div className='bg-[#353535] hidden md:block h-[10px] w-[10px] lg:h-[20px] lg:w-[20px] rounded-[50%]'></div>
-				<p className='text-[1.2rem] lg:text-[3rem] uppercase'>cro</p>
+				<p className='text-[1.2rem] lg:text-[3rem] uppercase'>CRO</p>
 				<div className='bg-[#353535] hidden md:block h-[10px] w-[10px] lg:h-[20px] lg:w-[20px] rounded-[50%]'></div>
 			</div>
 		</>

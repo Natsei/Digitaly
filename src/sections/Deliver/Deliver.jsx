@@ -26,7 +26,7 @@ const Deliver = () => {
             variants={riseUpItem}
             className="uppercase text-[1.5rem] font-semibold lg:text-[3rem] w-full lg:w-[30%] leading-[3rem]"
           >
-            What we deliver
+            Ce que nous offrons
           </motion.p>
           <motion.img
             variants={riseUpItem}
@@ -51,22 +51,22 @@ const Deliver = () => {
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            Custom digital strategy informed by a powerful appraisal & your
-            business deserves more than a pre-packed strategy
+            Une stratégie digitale personnalisée basée sur une évaluation approfondie. 
+            Votre entreprise mérite plus qu'une stratégie préemballée.
           </motion.p>
           <motion.p
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            See the progress we are making & what's driving results, anytime, we
-            keep you consistently, transparently informed.
+            Suivez les progrès que nous réalisons et ce qui génère des résultats, à tout moment. 
+            Nous vous tenons informé de manière constante et transparente.
           </motion.p>
           <motion.p
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            Services that dovetail together for your greatest ROI, rowing in the
-            same direction towards your growth goals.
+            Des services qui s'harmonisent pour maximiser votre retour sur investissement, 
+            tous orientés vers vos objectifs de croissance.
           </motion.p>
         </motion.div>
       </div>

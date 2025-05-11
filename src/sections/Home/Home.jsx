@@ -29,7 +29,7 @@ const Home = () => {
                   whileInView={fade}
                   className="uppercase text-[3rem] md:text-[4rem] lg:text-[5rem] tracking-[-2px] lg:tracking-[-6px] leading-[4rem] lg:leading-[5rem] font-bold "
                 >
-                  Sharing
+                  Partageons
                 </motion.h1>
                 <motion.img
                   initial={{ opacity: 0, y: 20 }}
@@ -48,7 +48,7 @@ const Home = () => {
                 whileInView={fade}
                 className="uppercase text-[3rem] md:text-[4rem] lg:text-[5rem] tracking-[-2px] lg:tracking-[-6px] leading-[4rem] lg:leading-[5rem] font-bold "
               >
-                Your Vision
+                Votre Vision
               </motion.h1>
             </motion.div>
             <div className="lg:w-[40%] text-center lg:text-left">
@@ -57,13 +57,13 @@ const Home = () => {
                 whileInView={fade}
                 className="lg:mb-8 mb-4 text-sm lg:text-base md:w-[80%] lg:w-full m-auto font-semibold text-gray-700"
               >
-                We love to create experiences that enable people to connect,
-                express themselves and establish meaningful relationships.
+                Nous aimons créer des expériences qui permettent aux gens de se connecter, 
+                de s'exprimer et d'établir des relations significatives.
               </motion.p>
               <div className="flex flex-col items-center md:flex-row md:justify-center lg:justify-start">
                 <motion.span initial={{ opacity: 0, y: 20 }} whileInView={fade}>
                   <Button className="flex items-center w-fit mb-4 md:mb-0 font-medium">
-                    <span className="mr-4">Start Project</span>{" "}
+                    <span className="mr-4">Démarrer un Projet</span>{" "}
                     <FiArrowUpRight />
                   </Button>
                 </motion.span>
@@ -108,7 +108,7 @@ const Home = () => {
               viewport={{ once: true }}
               src={HomeBanner}
               className="w-[80%] m-auto"
-              alt="Home Banner"
+              alt="Bannière d'accueil"
             />
           </div>
         </div>
